@@ -1,0 +1,12 @@
+outputdir: "./pastes"
+debug: True
+maxqueuesize: 100
+vtkey: ""
+elastic:
+  https: False
+  username: ""
+  password: ""
+  host: "elasticsearch"
+  port: 9200
+  index: "pastescrape"
+parsers: ["powershellFromBase64", "powershellWebClient", "vbsInvocation", "powershellScript", "powershellKeyword", "pythonSyscall", "bashHeader", "base64MZHeader", "base64ELFHeader", "rawMZHeader", "rawMachOHeader", "reverseBase64MZHeader", "reverseBase64ELFHeader", "largeHexBlob"]
